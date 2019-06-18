@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+}
+
+.hanoi {
+  margin: 120px auto;
+  width: 640px;
+}
+
+ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  margin-right: 20px;
+  border-bottom: 10px solid #000;
+}
+
+ul:last-of-type {
+  margin-right: 0;
+}
+
+li {
+  list-style: none;
+  height: 50px;
+  margin: 0 auto 5px auto;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+ul:hover {
+  border-color: blue;
+  cursor: pointer;
+}
+
+.selected {
+  border-color: red;
+}
+
+.small {
+  width: 60px;
+}
+
+.med {
+  width: 120px;
+}
+
+.large {
+  width: 180px;
+}
+
+.small, .med, .large {
+  background-color: gray;
+}
+
+.won:hover {
+  border-color: #000;
+  cursor: default;
+}
+
+.green {
+  background-color: green;
+}
